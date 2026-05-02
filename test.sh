@@ -8,7 +8,7 @@ PASS=0; FAIL=0
 cd "$(dirname "$0")"
 
 echo "Building..."
-dotnet build -q > /dev/null 2>&1
+dotnet build > /dev/null 2>&1
 
 run_script() {
   local name="$1"
